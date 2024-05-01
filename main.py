@@ -42,6 +42,7 @@ def extrato():
             print(f'Deposito: {movimentacao}')
         else:
             print(f'Saque: {movimentacao}')
+    print(f'Saldo atual: {saldo}')
 
 
 while True:
